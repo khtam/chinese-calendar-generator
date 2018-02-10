@@ -2,7 +2,7 @@ package com.generator
 
 import org.assertj.core.api.Assertions.assertThat
 
-public abstract class AbstractCombinationGeneratorTest {
+abstract class AbstractCombinationGeneratorTest {
 
     protected fun verifyGenerator(combinationGenerator: CombinationGenerator) {
         val actualResults: List<String> = combinationGenerator.generate();
